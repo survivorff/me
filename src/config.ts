@@ -9,19 +9,19 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "survivorff",
-	subtitle: "生活 · 读书 · 旅行 · 健康 · 兴趣",
+	subtitle: "生活 · 读书 · 旅行 · 音乐 · 美食 · 体育",
 	lang: "zh_CN",
 	themeColor: {
 		hue: 200, // teal-ish，区别于技术博客的冷色
 		fixed: false,
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png",
+		enable: true,
+		src: "assets/images/banner.jpg",
 		position: "center",
 		credit: {
-			enable: false,
-			text: "",
+			enable: true,
+			text: "千岛湖，杭州",
 			url: "",
 		},
 	},
@@ -46,9 +46,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png",
+	avatar: "assets/images/avatar.jpg",
 	name: "survivorff",
-	bio: "交易所工程师。白天写代码，其余时间读书、跑步、旅行。",
+	bio: "杭州 · 交易所工程师。白天写代码，其余时间读书、跑步、听歌、看球、做饭。",
 	links: [
 		{
 			name: "GitHub",

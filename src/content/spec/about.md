@@ -1,20 +1,38 @@
 # 关于
 
-嗨，我是 **survivorff**（Frank）。
+嗨，我是 **survivorff**（朋友叫我 Frank），坐标 🇨🇳 杭州。
 
-白天在交易所写代码，其余时间属于读书、跑步、旅行、瞎折腾。
+白天在交易所写代码，其余时间属于一堆相互矛盾的爱好。
 
-这里不聊技术，只记下班后的生活。技术相关的写在 [blog.frankfu.cloud](https://blog.frankfu.cloud)。
+这里只记下班后的东西。技术相关的在 [blog.frankfu.cloud](https://blog.frankfu.cloud)。
 
-## 在这里你会看到
+## 现在的我
 
-- 📚 **读书** — 看过的书、划过的线
-- ✈️ **旅行** — 去过的地方、想再去的地方
-- 🏃 **健康** — 跑步日志、习惯养成、身体记录
-- 🎮 **兴趣** — 游戏、音乐、咖啡、电影
-- 💭 **生活** — 写给未来的自己
+- 🏢 **工作**：交易所后端工程师，EVM / Solana 双链方向
+- 🏠 **城市**：杭州，偶尔在路上
+- 🐈 **室友**：两只猫（你可能已经见过它们了，封面那张就是）
+- 🏃 **身体**：配速 6 开头的跑者，目标进 6 以内
+- 📚 **在读**：经管、心理、一些技术书
 
-## 联系方式
+## 兴趣清单（广泛而不深）
+
+| 兴趣 | 目前状态 |
+|------|---------|
+| 🎵 **音乐** | 摇滚、民谣、偶尔电子。Spotify 在循环 |
+| ⚽ **体育** | 跑步 · 看球（德甲 / 欧洲杯 / NBA） · 偶尔游泳 |
+| 🍜 **美食** | 杭州本地馆子 + 做饭实验。辣的都吃 |
+| 🎯 **预测** | Polymarket 玩家。概率思维改变了我看世界的方式 |
+| 💻 **技术** | 本职。不过这里不聊这个 |
+| 🤖 **AI** | 重度使用者。Kiro / Claude / GPT 每天都开着 |
+
+## 为什么开这个 blog
+
+[blog.frankfu.cloud](https://blog.frankfu.cloud) 是"工程师 survivorff"。
+[me.frankfu.cloud](https://me.frankfu.cloud) 是"下班后的 survivorff"。
+
+人不只有一面。一个没有 KPI 的角落，想起来就写。
+
+## 联系
 
 - GitHub: [@survivorff](https://github.com/survivorff)
 - Twitter/X: [@survivorff](https://twitter.com/survivorff)
