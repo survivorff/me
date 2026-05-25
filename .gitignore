@@ -29,3 +29,15 @@ yarn.lock
 # ide
 .idea
 *.iml
+
+# Private book triage workspace (raw weread data)
+books-triage/raw/
+books-triage/triage.csv
+books-triage/triage.md
+books-triage/triage-full.md
+books-triage/triage-focus.md
+books-triage/vault-auto.json
+books-triage/now.json
+books-triage/shelf.json
+books-triage/vault.json
+books-triage/activated.csv
