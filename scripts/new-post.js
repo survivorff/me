@@ -4,7 +4,7 @@
  * Usage:
  *   pnpm new-post <slug>                      # default 生活 template
  *   pnpm new-post <slug> --cat 读书            # pick a template
- *   pnpm new-post <slug> --cat 旅行            # 读书 | 旅行 | 健康 | 兴趣 | 生活
+ *   pnpm new-post <slug> --cat 旅行            # 读书 | 旅行 | 健康 | 兴趣 | 生活 | 副业
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -176,6 +176,42 @@ draft: true
 
 ## 
 
+`,
+
+	副业: `---
+title: ${title}
+published: ${getDate()}
+description: ''
+image: ''
+tags: [副业, log]
+category: 副业
+draft: true
+---
+
+<!--
+  文件名建议: YYYY-MM-DD-side-hustle-log-NN-<slug>.md
+  接续上一期：log #NN
+-->
+
+## 本期一句话
+
+（这两周做副业最重要的一件事，一句话讲完）
+
+## 做了什么具体动作
+
+- 
+
+## 学到了什么
+
+- 
+
+## 数据
+
+- 
+
+## 下一步
+
+- 
 `,
 };
 
