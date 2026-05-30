@@ -4,7 +4,7 @@
  * Usage:
  *   pnpm new-post <slug>                      # default 生活 template
  *   pnpm new-post <slug> --cat 读书            # pick a template
- *   pnpm new-post <slug> --cat 旅行            # 读书 | 旅行 | 健康 | 兴趣 | 生活 | 副业
+ *   pnpm new-post <slug> --cat 旅行            # 读书 | 旅行 | 健康 | 兴趣 | 生活 | 副业 | 英语
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -206,6 +206,43 @@ draft: true
 - 
 
 ## 数据
+
+- 
+
+## 下一步
+
+- 
+`,
+
+	英语: `---
+title: ${title}
+published: ${getDate()}
+description: ''
+image: ''
+tags: [英语, log, 学习]
+category: 兴趣
+draft: true
+---
+
+<!--
+  文件名建议: YYYY-MM-DD-english-log-NN-<slug>.md
+  接续上一期：log #NN
+-->
+
+## 本期一句话
+
+（这段时间学英语最值得记的一件事）
+
+## 这段时间做了什么
+
+- 用了什么方法 / 工具 / 材料
+- 大概投入了多少时间
+
+## 遇到的问题 / 卡点
+
+- 
+
+## 产生的想法
 
 - 
 
