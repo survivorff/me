@@ -2,7 +2,7 @@
 title: 农历生日 · 简单，但心里很满
 published: 2026-06-10
 description: 今年的农历生日，是她陪我过的。一架我一直想学的琴、一封手写的信、一个好看的蛋糕，还有很多说不出口的体贴。本来不想写，但还是想留个记号。
-image: ''
+image: './2026-06-10-birthday-cake.jpg'
 tags: [生活, 生日, 随想, 记录]
 category: 生活
 draft: false
