@@ -2,7 +2,7 @@
 title: "副业 log #03：用 AI 铺开的 30 多个项目，一次盘点"
 published: 2026-06-12
 description: 接着 #02 往下记。最近几个月我借助 AI 铺开了三十多个项目——自媒体、产品、工具、知识库、博客都有。这一篇把它们摊在桌面上数一遍，顺便诚实地聊聊"广撒网"这件事的得与失。
-image: ''
+image: "./2026-06-12-side-hustle-log-03-thirty-repos-cover.png"
 tags: [副业, log, AI, 项目, 复盘]
 category: 副业
 draft: false

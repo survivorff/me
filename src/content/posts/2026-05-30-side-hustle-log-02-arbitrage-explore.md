@@ -2,7 +2,7 @@
 title: '副业 log #02：我在研究"广义套利"这件事'
 published: 2026-05-30
 description: 我说的套利不是 CEX/DEX 那种金融套利，是广义的——把"发现价差、理解机会的结构"当成一种认知能力来训练。目前还在搭框架、记想法，开了个 GitHub 仓库专门整理。这篇是 log #02，先把方向和现状记一笔。
-image: ''
+image: "./2026-05-30-side-hustle-log-02-arbitrage-explore-cover.png"
 tags: [副业, log, 套利, 信息差, 思考]
 category: 副业
 draft: false

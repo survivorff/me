@@ -2,7 +2,7 @@
 title: 开博 · 在母亲节这个周末
 published: 2026-05-10
 description: 选在一个阳光很好的周末、又是母亲节的日子，给自己开一个角落。记录生活、爱好、技术，和一个想把心打开的决定。
-image: ''
+image: "./2026-05-10-kaibo-on-mothers-day-cover.png"
 tags: [开篇, 随想, 母亲节]
 category: 生活
 draft: false

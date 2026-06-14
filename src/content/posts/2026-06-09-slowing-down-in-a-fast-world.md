@@ -2,7 +2,7 @@
 title: 在一个太快的世界里，慢下来做自己
 published: 2026-06-09
 description: 一没事就刷抖音、喜欢的吉他和书都失去了耐心、人和人之间功利心越来越重、AI 又在拉开差距——我最近一直在想，怎么在这个太快的世界里慢下来。这一篇不谈方法论，只是诚实地记一记我的浮躁，和我想要的那颗平静的心。
-image: ''
+image: "./2026-06-09-slowing-down-in-a-fast-world-cover.png"
 tags: [思考, 慢生活, 随想, 内心]
 category: 思考
 draft: false

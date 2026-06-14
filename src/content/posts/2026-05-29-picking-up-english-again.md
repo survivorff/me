@@ -2,7 +2,7 @@
 title: "英语 log #00：重新捡起英语 · 我不想再吃二手的世界"
 published: 2026-05-29
 description: 从小学四年级学到现在，二十多年了，我的英语还是没法跟老外顺畅聊天、没法读原版书、看电影还得看字幕。但我决定再认真捡起来——不是为了考试，不是为了赚钱，是因为我不想这辈子都隔着一层翻译去看这个世界。这是一个会持续更新的 log 系列的起点。
-image: ''
+image: "./2026-05-29-picking-up-english-again-cover.png"
 tags: [英语, log, 学习, 自我提升, 兴趣]
 category: 兴趣
 draft: false

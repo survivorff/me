@@ -2,7 +2,7 @@
 title: 站在 2026 年中，冷静看一眼 AI 这场浪
 published: 2026-06-08
 description: 不吹不黑地记一笔我对当下 AI 时代的看法——一条从能源到应用的全链路爆发、像被按了快进键的第三次工业革命、token 的三种未来、普通人的机会，以及在所有这些之上，一个人该怎么守住内心的平静。
-image: ''
+image: "./2026-06-08-ai-era-a-clear-eyed-look-cover.png"
 tags: [思考, AI, 时代, 随想]
 category: 思考
 draft: false

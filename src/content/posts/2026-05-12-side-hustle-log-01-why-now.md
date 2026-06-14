@@ -2,7 +2,7 @@
 title: "副业 log #01：30+ 的工程师，开始想副业这件事"
 published: 2026-05-12
 description: 行情差、技术卷、年过 30。一个 remote 交易所开发开始认真想副业这件事——不是为了马上赚钱，是想给自己开几个可选项。这是一个会持续更新的 log 系列，标记从 0 到 1 的过程。
-image: ''
+image: "./2026-05-12-side-hustle-log-01-why-now-cover.png"
 tags: [副业, log, 思考, 工程师, AI]
 category: 副业
 draft: false

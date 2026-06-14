@@ -2,7 +2,7 @@
 title: 十年之后再看《必然》——KK 说对了什么，没看到什么
 published: 2026-05-11
 description: 2016 年 KK 写《必然》的时候 ChatGPT 还要等 6 年。十年过去了，他列的那 12 个动词，哪些落地了，哪些跑偏了，哪些他根本没看到？我做 web3 这几年的视角下，重新翻这本书的几页笔记。
-image: ''
+image: "./2026-05-11-rereading-the-inevitable-after-ten-years-cover.png"
 tags: [读书, 必然, KK, 凯文凯利, 科技]
 category: 读书
 draft: false
