@@ -1,0 +1,89 @@
+---
+import { commentConfig } from "../config";
+
+const g = commentConfig.giscus;
+---
+
+{commentConfig.enable && (
+  <div class="card-base px-6 md:px-9 py-6 mb-4 onload-animation">
+    <div id="giscus-container" class="giscus min-h-[8rem]"></div>
+  </div>
+)}
+
+{commentConfig.enable && (
+  <script
+    is:inline
+    define:vars={{
+      repo: g.repo,
+      repoId: g.repoId,
+      category: g.category,
+      categoryId: g.categoryId,
+      mapping: g.mapping,
+      strict: g.strict ? "1" : "0",
+      reactions: g.reactionsEnabled ? "1" : "0",
+      emitMetadata: g.emitMetadata ? "1" : "0",
+      inputPosition: g.inputPosition,
+      lang: g.lang,
+    }}
+  >
+    {
+      const giscusTheme = () =>
+        document.documentElement.classList.contains("dark")
+          ? "dark_dimmed"
+          : "light";
+
+      // 注入 giscus（每次进入文章页都重建，兼容 Swup 无刷新跳转）
+      function loadGiscus() {
+        const container = document.getElementById("giscus-container");
+        if (!container) return; // 当前页不是文章页
+        if (container.querySelector("iframe.giscus-frame")) return; // 已加载
+        container.innerHTML = "";
+
+        const s = document.createElement("script");
+        s.src = "https://giscus.app/client.js";
+        s.setAttribute("data-repo", repo);
+        s.setAttribute("data-repo-id", repoId);
+        s.setAttribute("data-category", category);
+        s.setAttribute("data-category-id", categoryId);
+        s.setAttribute("data-mapping", mapping);
+        s.setAttribute("data-strict", strict);
+        s.setAttribute("data-reactions-enabled", reactions);
+        s.setAttribute("data-emit-metadata", emitMetadata);
+        s.setAttribute("data-input-position", inputPosition);
+        s.setAttribute("data-theme", giscusTheme());
+        s.setAttribute("data-lang", lang);
+        s.setAttribute("data-loading", "lazy");
+        s.crossOrigin = "anonymous";
+        s.async = true;
+        container.appendChild(s);
+      }
+
+      // 主题切换时通知 giscus iframe 同步明暗
+      function syncTheme() {
+        const iframe = document.querySelector("iframe.giscus-frame");
+        if (!iframe) return;
+        iframe.contentWindow?.postMessage(
+          { giscus: { setConfig: { theme: giscusTheme() } } },
+          "https://giscus.app",
+        );
+      }
+
+      const observer = new MutationObserver(syncTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+
+      loadGiscus();
+
+      // Swup：换页后重新初始化
+      if (window.swup?.hooks) {
+        window.swup.hooks.on("page:view", loadGiscus);
+      } else {
+        document.addEventListener("swup:enable", () => {
+          window.swup.hooks.on("page:view", loadGiscus);
+        });
+      }
+    }
+  </script>
+)}

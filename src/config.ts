@@ -1,4 +1,5 @@
 import type {
+	CommentConfig,
 	ExpressiveCodeConfig,
 	LicenseConfig,
 	NavBarConfig,
@@ -76,4 +77,20 @@ export const licenseConfig: LicenseConfig = {
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	theme: "github-dark",
+};
+
+export const commentConfig: CommentConfig = {
+	enable: true,
+	giscus: {
+		repo: "survivorff/me",
+		repoId: "R_kgDOSYyd6g",
+		category: "Announcements",
+		categoryId: "DIC_kwDOSYyd6s4C8rvb",
+		mapping: "pathname",
+		strict: true,
+		reactionsEnabled: true,
+		emitMetadata: false,
+		inputPosition: "top",
+		lang: "zh-CN",
+	},
 };

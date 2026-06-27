@@ -100,3 +100,19 @@ export type BlogPostData = {
 export type ExpressiveCodeConfig = {
 	theme: string;
 };
+
+export type CommentConfig = {
+	enable: boolean;
+	giscus: {
+		repo: string; // "owner/repo"
+		repoId: string;
+		category: string;
+		categoryId: string;
+		mapping: "pathname" | "url" | "title" | "og:title";
+		strict: boolean;
+		reactionsEnabled: boolean;
+		emitMetadata: boolean;
+		inputPosition: "top" | "bottom";
+		lang: string;
+	};
+};
